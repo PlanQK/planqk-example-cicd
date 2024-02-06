@@ -1,0 +1,9 @@
+name: planqk-example-cicd
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.6,<3.10
+  - pip>=21
+  - pip:
+      - loguru # required
+      - -r requirements.txt

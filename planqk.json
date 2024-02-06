@@ -1,0 +1,9 @@
+{
+  "name": "planqk-example-cicd",
+  "description": "Example service for demonstrating CICD integration via a GitHub Workflow and the Update PlanQK Service GitHub Action",
+  "resources": {
+    "cpu": 0.5,
+    "memory": 1
+  },
+  "runtime": "PYTHON_TEMPLATE"
+}
