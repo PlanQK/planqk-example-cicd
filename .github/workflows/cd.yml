@@ -24,6 +24,6 @@ jobs:
 
       # Updates your service on PanQK
       - uses: /PlanQK/update-service-action@v1.0.0
-        with:
+        env:
           PLANQK_TOKEN: ${{ secrets.PLANQK_TOKEN }}
           CONTEXT_ID: ${{ env.CONTEXT_ID }}
