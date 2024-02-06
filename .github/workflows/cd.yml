@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
 
       # Updates your service on PanQK
-      - uses: /PlanQK/update-service-action@v1.1.0
+      - uses: /PlanQK/update-service-action@v1.2.0
         with:
-          PLANQK_TOKEN: hallo
-          CONTEXT_ID: welt
+          PLANQK_TOKEN: ${{ secrets.PLANQK_TOKEN }}
+          CONTEXT_ID: ${{ env.CONTEXT_ID }}
