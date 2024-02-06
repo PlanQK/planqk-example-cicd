@@ -5,5 +5,6 @@
     "cpu": 0.5,
     "memory": 1
   },
-  "runtime": "PYTHON_TEMPLATE"
+  "runtime": "PYTHON_TEMPLATE",
+  "serviceId": "173e2dd7-9e6d-4ea0-b43e-e4e15f1a2d8e"
 }
