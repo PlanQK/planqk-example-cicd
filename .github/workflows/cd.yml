@@ -24,7 +24,7 @@ jobs:
 
       - shell: bash
         env:
-          CONTEXT_ID: ${{ env.CONTEXT_ID }}
+          CONTEXT_ID: ${{ vars.CONTEXT_ID }}
           PLANQK_TOKEN: ${{ secrets.PLANQK_TOKEN }}
         run: |
           echo "Output:"
@@ -35,4 +35,4 @@ jobs:
       - uses: /PlanQK/update-service-action@v1.3.0
         with:
           PLANQK_TOKEN: ${{ secrets.PLANQK_TOKEN }}
-          CONTEXT_ID: ${{ env.CONTEXT_ID }}
+          CONTEXT_ID: ${{ vars.CONTEXT_ID }}
